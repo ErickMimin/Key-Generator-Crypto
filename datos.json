@@ -1,0 +1,9 @@
+{
+    "datos_abogados": 
+    [
+        {"nombre": "Hector Jair", "correo": "hecjair1@hotmail.com"},
+        {"nombre": "Karla Paola", "correo": "kpto_21@hotmail.com"},
+        {"nombre": "Luis Pavel", "correo": "luispavelvarela@gmail.com"}
+        
+    ]
+}

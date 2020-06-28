@@ -1,0 +1,20 @@
+Hay dos codigos:
+
+generacion_llaves_RSA_correo_json.py  y  generacion_certificado_RSA.py
+
+
+generacion_llaves_RSA_correo_json.py utiliza el archivo datos.json para leer
+los nombres y los correos de los abogados y genera las llaves privadas y publicas
+de RSA usando la libreria PyCryptodom  y se envian el par de llaves al correo de cada abogado. 
+Como adicional, crea un archivo llamado data_file.json en donde guarda el nombre del abogado, 
+su llave publica y privada.
+
+
+generacion_certificado_RSA.py igual lee el archivo datos.json para leer
+los nombres y los correos de los abogados y genera el certificado digital y la 
+llave privada usando OpenSSL y se envian al correo de cada abogado. Este codigo 
+no genera ningun json ni nada como el codigo anterior.
+
+el archivo .env sirve para almacenar variables de entorno sensibles
+como contraseñas, tokens, etc. En ese archivo esta la contraseña del correo de 
+donde se envian las llaves que seria el correo de la empresa
